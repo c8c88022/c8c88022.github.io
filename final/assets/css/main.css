@@ -3705,7 +3705,9 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/banner.jpg");
+		/*background-image: url("../../images/banner.jpg");*/
+		background-image: url('images/c8cPIC.jpg');
+
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -3783,7 +3785,7 @@
 	}
 
 		#banner:before {
-			-moz-transition: opacity 3s ease;
+			/*-moz-transition: opacity 3s ease;
 			-webkit-transition: opacity 3s ease;
 			-ms-transition: opacity 3s ease;
 			transition: opacity 3s ease;
@@ -3798,7 +3800,8 @@
 			left: 0;
 			opacity: 0.65;
 			position: absolute;
-			top: 0;
+			top: 0;*/
+			background-image: url('images/c8cPIC.jpg');
 			width: 100%;
 			z-index: 1;
 		}
@@ -3807,6 +3810,7 @@
 
 			#banner {
 				font-size: .85em;
+
 			}
 
 				#banner br {
@@ -3916,3 +3920,7 @@
 			}
 
 		}
+
+section#banner{
+	background-image: url('images/c8cPIC.jpg');
+}
